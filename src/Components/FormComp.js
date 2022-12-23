@@ -44,7 +44,7 @@ function FormComp() {
   return (
     <FormElement ref={drop}>
       {formElements?.forEach((e)=>{
-        console.log(formElements);
+        console.log(formElements)
       })}
     </FormElement>
   )
